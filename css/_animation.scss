@@ -1,0 +1,29 @@
+
+    @keyframes pulse{
+        0%{
+            box-shadow: var(--con-w) 0 0 0 0;
+        }
+        75%{
+            box-shadow: #00000000 0 0 0  25px;
+        }
+        }
+
+@keyframes animate2 {
+    0%,
+    30% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes animate1 {
+    0% {
+      opacity: 100%;
+    }
+    70%,
+    100% {
+      opacity: 0%;
+    }
+  }
